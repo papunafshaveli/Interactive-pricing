@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <body>
+    <div class="whole-card">
+      <header>
+        <h1>Simple, traffic-based pricing</h1>
+        <p class="header-p">
+          Sign-up for our 30-day trial. No credit card required.
+        </p>
+      </header>
+
+      <main>
+        <div class="p-input-price">
+          <p class="viewers">100K PAGEVIEWS</p>
+          <input type="range" min="0" max="32" value="0" id="price-input" />
+          <strong class="price-p"
+            >$00.00 <span class="month"> / month</span>
+          </strong>
+        </div>
+        <div class="billing-div">
+          <p class="monthly">Monthly Billing</p>
+
+          <input type="checkbox" id="switch" /><label for="switch"></label>
+
+          <span class="yearly">Yearly Billing</span>
+
+          <div class="discount">-25%</div>
+        </div>
+
+        <hr />
+        <div class="infos">
+          <div class="info">
+            <img class="check" src="./images/icon-check.svg" />
+            <p class="info-p">Unlimited websites</p>
+          </div>
+
+          <div class="info">
+            <img class="check" src="./images/icon-check.svg" />
+            <p class="info-p">100% data ownership</p>
+          </div>
+
+          <div class="info">
+            <img class="check" src="./images/icon-check.svg" />
+            <p class="info-p">Email reports</p>
+          </div>
+        </div>
+        <button>Start my trial</button>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
