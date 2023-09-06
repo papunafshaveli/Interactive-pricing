@@ -18,7 +18,6 @@ body {
   width: 100%;
   height: 100vh;
   font-family: "Manrope";
-  padding: 5.7rem 2.4rem;
   background-image: url(./images/bg-pattern.svg);
   background-repeat: no-repeat;
 }
@@ -191,6 +190,19 @@ input:checked + label:after {
   font-weight: 800;
 }
 
+.discount-25 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  height: 1.9rem;
+  border-radius: 9.5px;
+  background: #feede8;
+  color: #ff8d68;
+  font-size: 1rem;
+  font-weight: 800;
+  display: none;
+}
 .infos {
   display: flex;
   flex-direction: column;
@@ -229,4 +241,132 @@ button {
   font-family: inherit;
   font-size: 1.2rem;
   font-weight: 800;
+}
+
+@media screen and (min-width: 768px) {
+  .whole-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 9.2rem;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .header-p {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  main {
+    min-width: 54rem;
+    padding: 4.8rem 4rem;
+    position: relative;
+  }
+
+  .p-input-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .viewers {
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+  }
+
+  #price-input {
+    position: absolute;
+    width: 84%;
+    height: 0.8rem;
+    top: 13.5rem;
+    left: 4.6rem;
+  }
+
+  .price-p {
+    font-size: 4rem;
+    letter-spacing: -0.1rem;
+  }
+
+  .month {
+    font-size: 1.6rem;
+  }
+
+  .billing-div {
+    margin-top: 10.4rem;
+    margin-bottom: 4rem;
+    margin-left: 10rem;
+    width: 78%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  hr {
+    margin-bottom: 3.2rem;
+  }
+
+  .discount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.1rem;
+    height: 1.9rem;
+    border-radius: 9.5px;
+    background: #feede8;
+    color: #ff8d68;
+    font-size: 1rem;
+    font-weight: 800;
+    display: none;
+  }
+
+  .discount-25 {
+    display: block;
+  }
+  .infos-and-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1rem;
+  }
+
+  .info {
+    width: 16rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  button {
+    margin-top: 0;
+    width: 17rem;
+    height: 4.1rem;
+    margin-left: 0;
+    transform: translate(0);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-size: contain;
+  }
 }
