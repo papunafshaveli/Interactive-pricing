@@ -1,5 +1,7 @@
 ### Frontend Mentor - Interactive pricing component solution
 
+This is a pricing component project that allows users to view pricing information based on their selected page view numbers. Users can interact with the slider and toggle to see prices for different page view numbers. The project also provides an optimal layout for the app depending on the user's device's screen size and includes hover states for all interactive elements on the page.
+
 ## Table of contents
 
 - [Overview](Interactive card details form)
