@@ -25,6 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
+![](images/screenshot.PNG)
+
 ### Built with
 
 - Semantic HTML5 markup
