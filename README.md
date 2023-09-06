@@ -14,6 +14,13 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Use the slider and toggle to see prices for different page view numbers
 
+### Here are the steps to use the pricing component:
+
+- Open the web page in your browser.
+- Adjust the slider to select your desired page view number.
+- Toggle the switch to switch between monthly and yearly pricing.
+- The pricing information and page view numbers will update accordingly.
+
 ### Screenshot
 
 ### Built with
